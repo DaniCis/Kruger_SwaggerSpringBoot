@@ -65,11 +65,11 @@ public class FootBallPlayer implements Serializable  {
 	public FootBallPlayer() {
 	}
 	
-	public FootBallPlayer(Integer id, @NotNull @Size(min = 1, max = 50) String name,
+	public FootBallPlayer(@NotNull @Size(min = 1, max = 50) String name,
 			@NotNull @Size(min = 1, max = 50) String surname, @NotNull int age,
 			@NotNull @Size(min = 1, max = 50) String team, @NotNull @Size(min = 1, max = 50) String position,
 			BigInteger price) {
-		this.id = id;
+
 		this.name = name;
 		this.surname = surname;
 		this.age = age;
